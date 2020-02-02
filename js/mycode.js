@@ -1,6 +1,7 @@
 var apiBaseUrl = "http://127.0.0.1:10010";
 
 function getTasks() {
+    $("#tasks").val("Refrershing task list...");
     $.ajax({
         type: 'GET',
         url: apiBaseUrl + "/tasks",
