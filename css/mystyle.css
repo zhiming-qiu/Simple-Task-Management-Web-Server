@@ -3,7 +3,17 @@ button {
     color: white
 }
 
+textarea {
+    width: 240px;
+}
+
+input {
+    width: 120px;
+}
+
 label {
-    width: 150px;
-    display:inline-block
+    width: 120px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: small;
 }
